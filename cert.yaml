@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: ambassador-certificate
+  namespace: ambassador
+spec:
+  domains:
+    - ambassador.searceinc.net
